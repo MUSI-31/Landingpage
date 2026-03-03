@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="img/icon2.webp">
+    <link rel="stylesheet" href="dashbord.css">
+    <!--font awesome section-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--header section-->
+    <header>
+        <nav>
+            <img src="img/logo.png" alt="img" class="logo">
+             <input type="checkbox" id="menu-toggle">
+             <label for="menu-toggle" class="hamburger">☰</label>
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="main.html">Shows</a>
+                <a href="dashbord.html">Movies</a>
+                <a href="#">Games</a>
+                <a href="#">New & Popular</a>
+                <a href="#">My List</a>
+                <a href="#">Browse by Languages</a>
+            </div>
+            <div class="nav1">
+                <a href="#"><i class="fa-solid fa-magnifying-glass" style="font-size: 17px;"></i></a>
+                <a href="#">Children</a>
+                <a href="#"><i class="fa-solid fa-bell" style="font-size: 17px;"></i></a>
+                <a href="#" class="smile"><i class="fa-solid fa-face-smile"></i></a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="banner" id="banner">
+            <div class="banner-content">
+                <h1 id="movie-title">Interstellar</h1>
+                <div class="banner-buttons">
+                    <button class="play-btn" id="playBtn" onclick="play()">▶ Play</button>
+                    <button class="info-btn">&#x2139; More Info</button>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <button id="scrollLeft" class="scroll-btn left">◀</button>
+            <div class="movie-row" id="movieRow"></div>
+            <button id="scrollRight" class="scroll-btn right">▶</button>
+            <!-- Movies loaded by JS -->
+        </div>
+        </div>
+
+        <!-- Video Modal -->
+        <div id="videoModal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal">&times;</span>
+                <iframe id="videoFrame" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="dashbord.js"></script>
+</body>
+
+</html>

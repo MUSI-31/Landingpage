@@ -1,0 +1,638 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+body {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(hero-img.jpg), no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 170px;
+    height: 38px;
+    padding-left: 120px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.nav {
+    display: inline-block;
+    padding-left: 57%;
+}
+
+header select {
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+
+}
+
+option {
+    color: black;
+}
+
+header .button-sing {
+    padding: 6px 14px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    border: none;
+    margin-left: 5px;
+}
+
+header .button-sing:hover {
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 55px;
+    width: 650px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    letter-spacing: 1px;
+    font-family: "Zalando Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+header h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+header form {
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+header input {
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 180px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    font-size: 18px;
+    text-align: start;
+}
+
+header .button-get {
+    padding: 14px 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    border: none;
+    font-weight: bold;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+
+header .button-get:hover {
+    cursor: pointer;
+}
+
+/*section 1*/
+.section-1 {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.img-div {
+    margin-top: 30px;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.img1 {
+    margin-left: 40px;
+}
+
+/*section 2*/
+.section-2 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.section-2 h2 {
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+}
+
+.p {
+    background: linear-gradient(#121333, #0d0f2d, #3a0243);
+    color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 230px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.p h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.p p {
+    text-align: justify;
+}
+
+.p h3 {
+    color: pink;
+    font-size: 30px;
+}
+
+/*section 3*/
+.section-3 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.section-3 h2 {
+    margin-bottom: 20px;
+}
+
+.faq-container {
+    width: 1250px
+}
+
+.faq {
+    border-bottom: 1px solid #333;
+}
+
+.faq button {
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.faq span {
+    font-size: 30px;
+}
+
+.faq-question {
+    width: 100%;
+    background: #303030;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 1px;
+    font-size: 28px;
+    border: none;
+    margin-top: 5px;
+    color: white;
+}
+
+.faq-ans {
+    display: none;
+    padding: 20px;
+    background: #2a2a2a;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.faq-ans p {
+    padding-bottom: 20px;
+}
+
+.faq.active .faq-ans {
+    display: block;
+}
+.span1{
+ margin-left:80%;
+}
+.span2{
+    margin-left:67%;
+}
+.span3{
+  margin-left:76.3%;
+}
+.span4{
+margin-left:78%;
+}
+.span5{
+ margin-left:68%;
+}
+.span6{
+   margin-left:72%; 
+}
+/*section 4*/
+.section-4 p {
+    text-align: center;
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+.section-4 form {
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+.section-4 input {
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 180px;
+    padding-left: 20px;
+    border: 1px solid grey;
+    font-size: 18px;
+    text-align: start;
+}
+
+.section-4 .button-get {
+    padding: 14px 40px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    border: none;
+    font-weight: bold;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+
+.section-4 .button-get:hover {
+    cursor: pointer;
+}
+
+/*footer*/
+footer {
+    margin-bottom: 5%;
+}
+
+.para1 {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: grey;
+}
+
+.footer-container {
+    display: flex;
+    height: 180px;
+    margin-top: 30px;
+}
+
+.footer-sub1 {
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.footer-sub2 {
+    width: 600px;
+    height: 300px;
+    padding: 8px;
+}
+
+.footer-sub3 {
+    width: 600px;
+    height: 300px;
+    padding: 8px;
+}
+
+.footer-sub4 {
+    width: 600px;
+    height: 300px;
+    padding: 8px;
+}
+
+footer a {
+    color: grey;
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+footer select {
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+option {
+    color: black;
+}
+
+.footer-p {
+    margin-left: 5%;
+    color: grey;
+    margin-top: 30px;
+}
+
+.para4 {
+    color: grey;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+.learn {
+    font-size: 14px;
+    color: rgb(60, 132, 191);
+    display: inline-block;
+}
+
+@media screen and (max-width:420px) {
+    .logo {
+        width: 27%;
+        height: 28px;
+        padding: 5px 5px;
+        margin-top: 10px;
+        margin-left: 5px;
+        object-fit: cover;
+    }
+
+    .nav {
+        padding-left: 0%;
+        margin-left: 26%;
+    }
+
+    header select {
+        padding: 5px 8px;
+        font-size: 12px;
+
+    }
+
+    header .button-sing {
+        padding: 6px 10px;
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    header h1 {
+        font-size: 30px;
+        width: 350px;
+        margin-left: 8%;
+        margin-top: 20%;
+        margin-right: 8%;
+    }
+
+    header h3 {
+        font-size: 18px;
+    }
+
+    header p {
+        font-size: 15px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    header form {
+        margin-top: 20px;
+        margin-left: 13%;
+    }
+
+    header input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 100px;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    header .button-get {
+        padding: 8px 17px;
+        font-size: 17px;
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+/*section 1*/
+.section-1 {
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.section-1 h2{
+    font-size: 17px;
+}
+.img-div {
+    margin-top: 20px;
+    display: flex;
+    width:400px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+img {
+    width: 100px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.img1 {
+    margin-left: 4px;
+}
+/*section 2*/
+.section-2 {
+    margin-left: 4%;
+}
+
+.section-2 h2 {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.main {
+    display:block;
+}
+
+.p {
+    width: 350px;
+    height: 130px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.faq {
+    border-bottom:none;
+}
+/*section 3*/
+.section-3 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.section-3 h2 {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.faq-container {
+    width: 800px
+}
+.faq button {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.faq span {
+    font-size: 20px;
+}
+
+.faq-question {
+    width: 49%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 1px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.faq-ans {
+    width: 47.7%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.faq-ans p {
+    padding-bottom: 20px;
+}
+
+.faq.active .faq-ans {
+    display: block;
+}
+.span1{
+ margin-left:57%;
+}
+.span2{
+    margin-left:30%;
+}
+.span3{
+  margin-left:49%;
+}
+.span4{
+margin-left:52%;
+}
+.span5{
+ margin-left:32%;
+}
+.span6{
+   margin-left:40%; 
+}
+/*section 4*/
+.section-4 p {
+    padding-top: 25px;
+}
+
+.section-4 form {
+   margin-left: 13%;
+}
+
+.section-4 input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 100px;
+        padding-left: 10px;
+        font-size: 16px;
+}
+
+.section-4 .button-get {
+        padding: 8px 17px;
+        font-size: 17px;
+        margin-left: 75px;
+        margin-top: 20px;
+}
+/*footer*/
+.para1 {
+    margin-left: 4%;
+}
+
+.footer-container {
+    display:block;
+    height:100%;
+    margin-top:5px;
+}
+
+.footer-sub1 {
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 4%;
+}
+
+.footer-sub2,.footer-sub3,.footer-sub4 {
+    width: 600px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 4%;
+}
+footer select {
+    margin-left: 5%;
+}
+.footer-p {
+    margin-left: 5%;
+}
+
+.para4 {
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.learn {
+    font-size: 12px;
+}
+body,html{
+    overflow-x: hidden;
+}
+}

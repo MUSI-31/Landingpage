@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="img/icon2.webp">
+    <link rel="stylesheet" href="main.css">
+    <!--font awesome section-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--header section-->
+    <header>
+        <nav>
+       
+            <img src="img/logo.png" alt="img" class="logo">
+       <input type="checkbox" id="menu-toggle">
+       <label for="menu-toggle" class="hamburger">☰</label>
+      
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="#">Shows</a>
+                <a href="dashbord.html">Movies</a>
+                <a href="#">Games</a>
+                <a href="#">New & Popular</a>
+                <a href="#">My List</a>
+                <a href="#">Browse by Languages</a>
+            </div>
+            <div class="nav1">
+                <a href="#"><i class="fa-solid fa-magnifying-glass" style="font-size: 17px;"></i></a>
+                <a href="#">Children</a>
+                <a href="#"><i class="fa-solid fa-bell" style="font-size: 17px;"></i></a>
+                <a href="#" class="smile"><i class="fa-solid fa-face-smile"></i></a>
+            </div>
+           
+        </nav>
+    </header>
+    <!--section-->
+    <section class="section-1">
+        <h3>Critically Acclaimed TV Shows</h3>
+        <div class="image-row">
+            <img src="img/movie1.webp" alt="img" class="popup-img" data-video="https://www.youtube.com/embed/xpYbaJ7q88E">
+            <img src="img/movie2.webp" alt="img" class="popup-img">
+            <img src="img/movie3.webp" alt="img" class="popup-img" data-video="https://www.youtube.com/embed/amLsm0Vgkbo" >
+            <img src="img/movie4.webp" alt="img" class="popup-img">
+             <img src="img/netfliximg.webp" alt="img" class="popup-img" data-video="https://www.youtube.com/embed/ueCc-AYUMRs">
+            <img src="img/movie10.webp" alt="img" class="popup-img" data-video="">
+        </div>
+        </div>
+
+        <h3>Get In on the Action</h3>
+        <div class="image-row">
+            <img src="img/movie6.webp" alt="img" class="popup-img">
+            <img src="img/movie7.webp" alt="img" class="popup-img">
+            <img src="img/movie8.webp" alt="img" class="popup-img">
+            <img src="img/movie9.webp" alt="img" class="popup-img">
+            <img src="img/movie20.webp" alt="img" class="popup-img">
+            <img src="img/movie16.webp" alt="img" class="popup-img">
+        </div>
+
+        <h3>US Fantasy TV</h3>
+        <div class="image-row">
+            <img src="img/movie21.webp" alt="img" class="popup-img">
+            <img src="img/movie17.webp" alt="img" class="popup-img">
+            <img src="img/movie12.webp" alt="img" class="popup-img">
+            <img src="img/movie13.webp" alt="img" class="popup-img">
+            <img src="img/movie14.webp" alt="img" class="popup-img">
+            <img src="img/movie15.webp" alt="img" class="popup-img">
+
+        </div>
+
+        <h3>US TV Shows</h3>
+        <div class="image-row">
+            <img src="img/movie10.webp" alt="img" class="popup-img">
+            <img src="img/netflix4.webp" alt="img" class="popup-img">
+            <img src="img/netflix2.webp" alt="img" class="popup-img">
+            <img src="img/netflix img3.webp" alt="img" class="popup-img">
+            <img src="img/netflix5.webp" alt="img" class="popup-img">
+            <img src="img/movie1.webp" alt="img" class="popup-img">
+        </div>
+        <!--popup box-->
+        <div id="imageModal" class="modal">
+            <span class="close" id="closeModal">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <iframe id="videoFrame" width="90%" height="90%" style="display:none;" frameborder="0"
+                allowfullscreen></iframe>
+            <button class="Button" id="button-popup">Play <i class="fa-solid fa-play"></i></button>
+        </div>
+    </section>
+     <!--footer-->
+    <footer>
+        <p class="para1">Questions? Call 000-800-919-1743</p>
+        <div class="footer-container">
+            <div class="footer-sub1">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="footer-sub2">
+                <a href="#">Help Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="footer-sub3">
+
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+
+            </div>
+            <div class="footer-sub4">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+
+
+            </div>
+        </div>
+        <select>
+            <option value="lang"> English </option>
+            <option value="lg">Hindi</option>
+        </select>
+        <p class="footer-p">Netflix India</p>
+        <p class="para4">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#" class="learn">Learn more.</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
